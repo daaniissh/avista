@@ -1193,13 +1193,27 @@ fieldset[disabled] .btn-theme {
   .md-margin-b-100 {
     margin-bottom: 100px !important;
   }
+  .map-res{
+    flex-wrap:wrap;
+  }
+  .map-res iframe{
+    height:400px !important;
+    width: 100%;
+  }
+  .glassy-mf{
+    width:300px !important;
+  }
 }
 @media (max-width: 768px) {
   .map-res{
     flex-wrap:wrap;
   }
   .map-res iframe{
-    height:600px;
+    height:800px;
+    width: 100%;
+  }
+  .glassy-mf{
+    width:300px !important;
   }
   .sm-margin-b-0 {
     margin-bottom: 0 !important;
@@ -1298,7 +1312,7 @@ fieldset[disabled] .btn-theme {
 .glassy-mf{
   /* From https://css.glass */
 background: rgba(255, 255, 255, 0.29);
-border-radius: 16px;
+
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
