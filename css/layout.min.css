@@ -1198,7 +1198,7 @@ fieldset[disabled] .btn-theme {
   }
   .map-res iframe{
     height:400px !important;
-    width: 100%;
+    width: 400px !important;
   }
   .glassy-mf{
     width:300px !important;
