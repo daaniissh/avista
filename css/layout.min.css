@@ -1201,9 +1201,11 @@ fieldset[disabled] .btn-theme {
     width: 400px !important;
   }
   .glassy-mf{
-    width:300px !important;
+    width:500px !important;
   }
+  #map { height: 180px !important; }
 }
+#map { height: 180px; }
 @media (max-width: 768px) {
   .map-res{
     flex-wrap:wrap;
@@ -1213,7 +1215,8 @@ fieldset[disabled] .btn-theme {
     width: 100%;
   }
   .glassy-mf{
-    width:300px !important;
+    width:400px !important;
+    margin-top: 5px;
   }
   .sm-margin-b-0 {
     margin-bottom: 0 !important;
