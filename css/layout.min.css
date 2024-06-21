@@ -1206,6 +1206,9 @@ fieldset[disabled] .btn-theme {
   #map { height: 180px !important; }
 }
 #map { height: 180px; }
+.alert-hide{
+ opacity: 0;
+}
 @media (max-width: 768px) {
   .map-res{
     flex-wrap:wrap;
