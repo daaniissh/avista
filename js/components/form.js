@@ -1,9 +1,13 @@
 const button = document.getElementById("send");
+const form = document.getElementById("form");
 // const alert = document.querySelector(".alert");
 const alert = document.querySelector(".alert");
 function sendEmail(e) {
-   e.preventDefault();
-  
+   e.preventDefault()
+    document.querySelector('.btn-ring').style.display = 'block';
+
+    button.disabled = true;
+    button.value = 'disabled';
  
  
   let tempParams = {
@@ -20,6 +24,8 @@ function sendEmail(e) {
          const beepSound = document.getElementById("beep-sound");
       beepSound.play();
       }
+      document.querySelector('.btn-ring').style.display = 'none';
+      button.disabled = false;
       const alert = document.querySelector(".alert");
       // const alertNo = document.querySelector(".alert h2");
       alert.classList.remove("alert-hide");
@@ -28,11 +34,14 @@ function sendEmail(e) {
       setTimeout(() => {
         alert.classList.add("alert-hide");
       }, 5000);
-
-      setTimeout(() => {
-        window.location.reload();
-      }, 3300);
+      document.getElementById("name").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("phone").value = "";
+      document.getElementById("message").value = "";
+      // setTimeout(() => {
+      //   window.location.reload();
+      // }, 3300);
 
     });
 }
-button.addEventListener("click", sendEmail);
+form.addEventListener("submit", sendEmail);
