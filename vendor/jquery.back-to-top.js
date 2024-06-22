@@ -6,7 +6,7 @@ $(document).ready(function($){
         //duration of the top scrolling animation (in ms)
         scroll_top_duration = 700,
         //grab the "back to top" link
-        $back_to_top = $('.js-back-to-top');
+        $back_to_top = $('.js-back-to-topp');
 
     //hide or show the "back to top" link
     $(window).scroll(function(){
@@ -25,3 +25,4 @@ $(document).ready(function($){
         );
     });
 });
+

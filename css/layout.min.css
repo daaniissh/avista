@@ -698,6 +698,8 @@ fieldset[disabled] .btn-theme {
   color: #81848f;
   margin-bottom: 10px;
 }
+
+
 .back-to-top,
 .back-to-top:hover {
   color: #fff;
@@ -1403,4 +1405,10 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   scrollbar-color: var(--skin-color) var(--bg-black-900) !important;
 
   scrollbar-width: thin !important;
+}
+
+.hidden-element {
+  /* display: none !important; */
+  display: hidden;
+  /* You can also add other styles like position, background color, etc. */
 }
