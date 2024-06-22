@@ -545,7 +545,7 @@ fieldset[disabled] .btn-theme {
   padding: 15px 0;
 }
 .header .logo-img {
-  width: 85px;
+  width: 100px;
   height: auto;
   max-width: 100%;
   max-height: 100%;
@@ -1431,5 +1431,92 @@ fieldset[disabled] .btn-theme {
     background: rgba(255, 255, 255, 0.973) url("../img/loader-ph.gif") no-repeat
     center center;
   background-size: 30%;
+  }
+}
+
+.footer {
+  background: #0A0A23;
+  color: white;
+  padding: 30px 0;
+  position: relative;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer .footer-section {
+  flex: 1;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.footer .logo-text {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.footer .logo-text span {
+  color: #00AEEF;
+}
+
+.footer .footer-text {
+  margin: 20px 0;
+}
+
+.footer .certifications img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.footer .about .lg {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+}
+
+.footer .footer-section h2 {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  color: #00AEEF;
+}
+
+.footer .footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer .footer-section p {
+  margin: 10px 0;
+}
+
+.footer .footer-bottom {
+  background: #111111;
+  color: #999999;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .footer .footer-content {
+    display: block;
+    
+  }
+  .footer .contact{
+    margin-bottom:25px;
   }
 }
