@@ -1412,3 +1412,15 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   display: hidden;
   /* You can also add other styles like position, background color, etc. */
 }
+.loader {
+  background:rgba(255, 255, 255, 0.973) url("../img/loader-c.gif") no-repeat center center;
+   background-size:5%;
+  width:100%;
+
+ 
+  height:100vh;
+  /* overflow-y: hidden; */
+  position: fixed;
+  z-index:99999;
+}
+
