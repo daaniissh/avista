@@ -1521,3 +1521,12 @@ fieldset[disabled] .btn-theme {
     margin-bottom:25px;
   }
 }
+
+.hide-contact{
+  opacity:0 !important;
+  transition: all ease 0.5s;
+}
+
+.what-a:hover .hide-contact{
+  opacity:1 !important;
+}

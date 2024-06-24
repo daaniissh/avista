@@ -1,4 +1,5 @@
 var loader = document.getElementById("loader");
+var sp = document.querySelector("what-a");
 // script.js
 window.addEventListener("load", function () {
  
@@ -17,4 +18,3 @@ window.onscroll = function () {
     hiddenDiv.style.display = "none";
   }
 };
-
